@@ -2,7 +2,7 @@
 % this is inspired by Michael Pollind's Awesome CV 
 % Created from scratch as a much simpler alternative to it to actually learn LaTeX.
 % Might be interpreted as an easier-to-edit or easier-to-understand-what-is-going-on version of it.
-\author{Murat Can Karacabey}
+\author{zxj}
 \RequirePackage[dvipsnames]{xcolor} % moved here I guess article class causes option clash with xcolor if used after loading the class
 \LoadClass[11pt]{article}
 \NeedsTeXFormat{LaTeX2e}
@@ -30,7 +30,7 @@
 \newcommand*{\setposition}[1]{\def\@position{#1}}
 \newcommand*{\setmail}[1]{\def\@mail{#1}}
 \newcommand*{\setthemecolor}[1]{\def\@themecolor{#1}}
-\newcommand*{\setlinkedinaccount}[1]{\def\@linkedinaccount{#1}}
+%\newcommand*{\setlinkedinaccount}[1]{\def\@linkedinaccount{#1}}
 \newcommand*{\setgithubaccount}[1]{\def\@githubaccount{#1}}
 
 %Setup for coverletter
@@ -76,8 +76,8 @@
 %contactsubviews 
     
     
-\newcommand{\githubview}{\href{\@linkedinaccount}{\faLinkedinSquare\ \footnotesize linkedin}}
-\newcommand{\linkedinview}{\href{\@githubaccount}{\faGithubSquare\ \footnotesize github}}
+\newcommand{\githubview}{\href{\@githubaccount}{\faGithubSquare\ \footnotesize github}}
+%\newcommand{\linkedinview}{\href{\@githubaccount}{\faGithubSquare\ \footnotesize github}}
 
 \newcommand{\name}{%
     {\large \@firstname \ \textsc{\@lastname}}
@@ -86,7 +86,7 @@
 \newcommand{\contact}{%
         {\small \@address  \cps \@mobile \\ \@mail%
         \\%
-        \linkedinview \cps \githubview \\ 
+         \githubview \\ 
         } % 
 }
 

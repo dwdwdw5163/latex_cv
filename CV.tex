@@ -1,100 +1,107 @@
 \documentclass{muratcan_cv}
-
-\setname{Murat Can}{Karacabey}
-\setaddress{Munich/Germany}
-\setmobile{xx xxx xx xx}
-\setmail{muratcankaracabey@gmail.com}
-\setposition{Work Student} %ignored for now
-\setlinkedinaccount{https://www.linkedin.com/in/murat-can-karacabey-568a96b1/} %you can play with color of the template (red is also nice..)
-\setgithubaccount{https://github.com/muratcankaracabey} %you can play with color of the template (red is also nice..)
+\usepackage {ctex}
+\usepackage[utf8]{inputenc}
+\setname{\textbf{\fontsize{22pt}{24pt}张昕杰}}{}
+\setaddress{湖北省武汉市}
+\setmobile{18150153576}
+\setmail{zjie5163@gmail.com}
+\setposition{本科三年级} %ignored for now
+%\setbloguarl{http://raymoncy.cn/} %you can play with color of the template (red is also nice..)
+\setgithubaccount{https://github.com/dwdwdw5163} %you can play with color of the template (red is also nice..)
 \setthemecolor{red} %you can play with color of the template (red is also nice..)
 
 \begin{document}
-%Set variables
-%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
-%Create header
-\headerview
-\vspace{1ex}
-%Sections
-%
-% Summary
-\addblocktext{Summary}{%
-\lipsum[1][1-12]\ %replace this part with actual text
-}
-%
-%Education
-\section{Education} 
-    \datedexperience{Boğaziçi University}{2013-2018} 
-    \explanation{B.S in Computer Engineering} 
-     \explanationdetail{\coloredbullet\ % 
-     \lipsum[1][3-4]\par %replace this part with actual text
-     }
-    \datedexperience{Technical University of Munich}{2019-2022} 
-    \explanation{M.S in Informatics} 
-    \explanationdetail{\coloredbullet\ %
-     \lipsum[1][3-4]\par %replace this part with actual text
-     }
-%
-% Experience
-\section{Experience}
-    %
-    \datedexperience{Intertech Inc.}{2014-Summer / Turkey} 
-    \explanation{Intern as android developer} 
-    %
-    \datedexperience{Velocity Inc.}{2015-Summer / Turkey} 
-    \explanation{Intern as Developer/Tester} 
-    %
-    \datedexperience{Akbank}{2018-2019 / Turkey} 
-    \explanation{Ios Developer} 
-    \explanationdetail{\coloredbullet\ %
-     \lipsum[1][1-2]\par %replace this part with actual text
-     }
-    %
-    \datedexperience{Mobile-Software AG}{2019-2020 / Germany} 
-    \explanation{Ios Developer} 
-    \explanationdetail{\coloredbullet\ %
-     \lipsum[1][4-5]\par %replace this part with actual text
-     }
-    %
-    \datedexperience{BMW Autonomous Driving Campus}{2020-Now / Germany} 
-    \explanation{Working Student} 
-    \explanationdetail{\coloredbullet\ %
-     \lipsum[1][3-4]\par %replace this part with actual text
-     }
-%
-% Skills
-\section{Skills}
-    %
-    \newcommand{\skillone}{\createskill{Programming Languages}{\textbf{\emph{Experienced:}} \ \  Python \cpshalf Swift \ \ \textbf{\emph{Familiar:}} \ \  Javascript \cpshalf Objective-C \cpshalf Bash \cpshalf Java \cpshalf Scheme}}
-    %
-    \newcommand{\skilltwo}{\createskill{Software Development}{Programming Paradigms \cpshalf GIT \cpshalf CLI \cpshalf Agile Methodology \cpshalf DevOps Lifecycles}}
-    %
-    \newcommand{\skillthree}{\createskill{Frameworks \ \& \ Libraries}{Jupyter \cpshalf Matplotplib \cpshalf Numpy \cpshalf Pandas \cpshalf Scikit-learn \cpshalf Gym \cpshalf PyTorch \cpshalf Tensorflow}}
-    %
-    \newcommand{\skillfour}{\createskill{iOS Programming}{RxSwift \cpshalf PromiseKit \cpshalf CocoaPods \cpshalf Autolayout/DSLs}}
-    %
-    \newcommand{\skillfive}{\createskill{Languages}{\textbf{\emph{Native:}} \ \  Turkish \ \ \textbf{\emph{Fluent:}} \ \ English \ \ \textbf{\emph{Beginner:}} \ \  German }}
-    %
-    \createskills{\skillone, \skilltwo, \skillthree, \skillfour, \skillfive}
-%
-% Experience
-\section{Extra}
-    \newcommand{\extraone}{%
-    \lipsum[1][7-8]\par %replace this part with actual text
-    }
-    %
-    \newcommand{\extratwo}{%
-    \lipsum[1][9-10]\par %replace this part with actual text
-    }
-    %
-    \newcommand{\extrathree}{%
-    \lipsum[1][11-12]%replace this part with actual text
-    }
-    %
-    \newcommand{\listofextras}{\extraone, \extratwo, \extrathree}
-    %
-    \createbullets{\listofextras}
-%
-%Footnote
-\createfootnote
+	%Set variables
+	%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
+	%Create header
+	\headerview
+	\vspace{1ex}
+	%Sections
+	%
+	% Summary
+	\addblocktext{Summary}{
+		\fontsize{9pt}{24pt}对未知事物有着强烈的好奇心，有自我驱动的学习力和找到问题答案的能力。%replace this part with actual text
+	}
+	%
+	%Education
+	\section{Education} 
+	\datedexperience{\fontsize{10pt}{24pt}武汉理工大学 Wuhan University Of Technology}{2019.9-至今} 
+	\explanation{\fontsize{9pt}{24pt}电子科学与技术，本科三年级在读} 
+	\explanationdetail{\coloredbullet\ % 
+		{\fontsize{9pt}{24pt}担任校电子科技协会副部长，GPA：2.92（79/100），专业排名：43/114}
+	}
+	\explanationdetail{\coloredbullet\ % 
+		{\fontsize{9pt}{24pt}\textbf{主攻方向：FPGA边缘加速IP设计、FPGA神经网络加速、嵌入式应用、Hbirdv2-E203 RISC-V}} 
+	}
+	\explanationdetail{\coloredbullet\ % 
+		{\fontsize{9pt}{24pt}\textbf{期望研究方向：图像处理IP设计、可重构计算、并行加速、嵌入式}} 
+	}
+	%
+		\section{Achievements}
+	\newcommand{\extraone}{%
+		{\fontsize{9pt}{24pt}基于多模态深度学习的皮肤检测系统[J]. 数码设计（下）,2020,9(10):277.} \hfill \datetext{2020}%replace this part with actual text
+	}
+	%
+	\newcommand{\extratwo}{%
+		{\fontsize{9pt}{24pt}全国大学生工程训练与综合能力竞赛 \qquad\qquad\qquad\qquad\qquad \textbf{全国二等奖}} \hfill \datetext{2021}%replace this part with actual text
+	}
+	%
+	\newcommand{\extrathree}{%
+		{\fontsize{9pt}{24pt}"TI杯"全国大学生电子设计竞赛 \qquad\qquad\qquad\qquad\qquad\qquad\ \, \textbf{全国一等奖}} \hfill \datetext{2021}%replace this part with actual text
+	}
+	%
+	\newcommand{\extrafour}{%
+		{\fontsize{9pt}{24pt}第五届全国大学生集成电路创新创业大赛 \qquad\qquad\qquad\quad \ \ \textbf{华中赛区三等奖}} \hfill \datetext{2021}%replace this part with actual text
+	}
+	%
+	\newcommand{\listofextras}{\extraone, \extratwo, \extrathree, \extrafour}
+	%
+	\createbullets{\listofextras}
+	% Experience
+	\section{Experience}
+	%
+	\datedexperience{\fontsize{10pt}{24pt}参与论文多模态深度学习的皮肤检测系统}{2020} 
+	\explanationdetail{\coloredbullet\ %
+		\fontsize{9pt}{24pt}使用卷积神经网络架构VGGNet-19，了解了有关神经网络的基本知识，为后续的模式识别与机器学习打下基础。
+	}
+	%
+	\datedexperience{\fontsize{10pt}{24pt}全国大学生FPGA创新设计大赛}{2020} 
+	\explanationdetail{\coloredbullet\ %
+		\fontsize{9pt}{24pt}开始接触FPGA，兴趣点开始从嵌入式单片机慢慢转移到FPGA上，因为现代FPGA的可重构性越来越强， zynq等系列FPGA的出现加快了开发的速度。同时随着深度学习的发展，FPGA的优势也越显突出。为我后续的FPGA学习奠定了基础
+	}
+	%
+	\datedexperience{\fontsize{10pt}{24pt}中国大学生工程实践与创新能力大赛（智能无人机运送）}{2021} 
+	\explanationdetail{\coloredbullet\ %
+		\fontsize{9pt}{24pt}使用Jetson nano和YOLO3进行目标检测，熟悉了神经网络的部署以及Linux的使用。之后深入学习神经网络并且主要使用Linux开发环境。
+	}
+	%
+	\datedexperience{\fontsize{10pt}{24pt}全国大学生集成电路创新创业大赛（边缘加速IP设计）}{2021} 
+	\explanationdetail{\coloredbullet\ %
+		\fontsize{9pt}{24pt}制作基于边缘检测的PCB AOI系统。掌握了Vivado和Vitis HLS的使用。熟悉Zynq PS和PL的协同运作。
+	}
+	%
+	\datedexperience{\fontsize{10pt}{24pt}全国大学生电子设计竞赛（用电器分析识别装置）}{2021} 
+	\explanationdetail{\coloredbullet\ %
+		\fontsize{9pt}{24pt}利用电表芯片HT7038+STM32F4完成电网环境的检测分析，并通过数据处理分析用电器种类和数量，具有学习能力
+	}
+	%
+	\datedexperience{\fontsize{10pt}{24pt}准备软件杯、集创赛}{2022-至今} 
+	\explanationdetail{\coloredbullet\ %
+		\fontsize{9pt}{24pt}使用mtcnn+facenet进行人脸检测和识别，并在国产嵌入式操作系统SylixOS上通过ncnn+qt+opencv进行部署；设计基于马尔科夫随机场的边缘先验建模的图像上采样（SR-GPP），并依此设计FPGA图片上采样加速IP
+	}
+	% Skills
+	\section{Skills}
+	%
+	\newcommand{\skillone}{\createskill{\fontsize{9pt}{24pt}编程语言}{\textbf{\emph{Experienced:}} \ \  C/C++ \cpshalf Verilog HDL \cpshalf Python \ \ \textbf{\emph{Familiar:}} \ \  Pytorch \cpshalf Verdi \cpshalf System Verilog}}
+	%
+	\newcommand{\skilltwo}{\createskill{\fontsize{9pt}{24pt}开发平台}{Windows/Linux \cpshalf STM32 \cpshalf ESP系列 \cpshalf FPGA/ZYNQ \cpshalf Raspberry Pi/Lichee Pi \cpshalf K210 \cpshalf Jetson Nano}}
+	%
+	\newcommand{\skillthree}{\createskill{\fontsize{9pt}{24pt}语言能力}{\fontsize{9pt}{24pt}英语具有良好的读写能力、阅读过大量英文论文和技术手册、通过CET-6、目前在学习GRE和托福}}
+	%
+	\createskills{\skillone, \skilltwo, \skillthree}
+	% Experience
+
+	%
+	%Footnote
+	\createfootnote
 \end{document}
